@@ -19,7 +19,7 @@
 	co = commit
 	st = status
 	br = branch
+	pu = push
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	type = cat-file -t
 	dump = cat-file -p
-	pu = push
